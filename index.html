@@ -1,0 +1,74 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title id="survey-form-title"></title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header>
+    <h1 id="title" class="large-text">Ice Cream Survey Form</h1>
+    <p id="description">Please fill out this form with the required information</p>
+  </header>
+  <form id="survey-form" action="https://register-demo.freecodecamp.org">
+    <fieldset>
+      <label id="name-label">Enter Your Name: 
+        <input id="name" type="text" name="first-name" placeholder="firstname, lastname"required />
+      </label>
+      <label id="email-label">Enter Your Email: <input id="email" type="email" placeholder="asdf@asdf.com" required/></label>
+      <label id="number-label">Enter Your Age: <input id="number" type="number" min="18" max="120" placeholder="21" required/></label>
+    </fieldset>
+    <fieldset>
+      <label>
+        What is your favorite flavor of ice cream?
+        <select id="dropdown">
+          <option value="">(select one)</option>
+          <option value="1">Cherry</option>
+          <option value="2">Vanilla</option>
+          <option value="3">Chocolate</option>
+          <option value="4">Tiger</option>
+        </select>
+      </label>
+    </fieldset>
+    <fieldset>
+      Ice Cream Type:
+      <label>
+        <input type="checkbox" name="soft-serve" value="soft-serve" class="inline" /> Soft Serve
+        </label>
+      <label>
+        <input type="checkbox" name="froyo" value="froyo" class="inline" /> Frozen Yogurt
+        </label>
+      <label>
+        <input type="checkbox" name="hard-icecream" value="hard-icecream" class="inline" /> Hard Ice Cream
+        </label>
+    </fieldset>
+    <fieldset>
+      Cone type:
+      <label>
+        <input type="radio" name="cone-type" value="waffle-cone" class="inline" /> Waffle Cone
+      </label>
+      </label>
+      <label>
+        <input type="radio" name="cone-type" value="standard-cone" class="inline" /> Standard Cone
+      </label>
+      <label>
+        <input type="radio" name="cone-type" value="paper-cone" class="inline" /> No Cone
+      </label>
+    </fieldset>
+    <h3> Why do you like ice cream? </h3>
+    <fieldset>
+      <label>
+        <textarea name="why-like-icecream" rows="20" cols="80" placeholder="It reminds me of my childhood and I like the unique sensation of eating something frozen but soft..."></textarea>
+      </label>
+    </fieldset>
+
+    <input id="submit" type="submit" value="Submit"/>
+  </form>
+</body>
+
+</html>
+
