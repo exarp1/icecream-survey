@@ -1,5 +1,5 @@
 # icecream-survey
-This is an ice cream survey form specified in the user-stories given in the Certification Project 'Survey Form', from "(New) Responsive Web Design" Course at freeCodeCamp.org
+This is an ice cream survey form specified in the user-stories given in the Certification Project 'Survey Form', from the **(New) Responsive Web Design** Course at [freeCodeCamp.org](freeCodeCamp.org)
 
 view the project at: https://exarp1.github.io/icecream-survey/
 
