@@ -5,4 +5,5 @@ It is part of the **(New) Responsive Web Design** Course at [freeCodeCamp.org](f
 
 view the project live at: https://exarp1.github.io/icecream-survey/
 
+(screenshot of browser zoomed out to 20% in order to show structure)
 ![image](https://user-images.githubusercontent.com/12552884/188054193-6236620c-23a3-4329-92ff-fec49643d9ab.png)
